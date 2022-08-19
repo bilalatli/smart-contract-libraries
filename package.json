@@ -1,4 +1,7 @@
 {
+  "name": "smart-contract-libraries",
+  "version": "1.0.0",
+  "description": "Solidity smart contract libraries for dApp developers !",
   "author": {
     "name": "Bilal ATLI",
     "url": "https://github.com/bilalatli"
@@ -9,7 +12,6 @@
     "compile": "npx hardhat compile",
     "hardhat:node": "npx hardhat node"
   },
-  "name": "hardhat-project",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.1.1",
     "@nomiclabs/hardhat-etherscan": "^3.1.0",
