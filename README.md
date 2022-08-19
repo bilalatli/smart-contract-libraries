@@ -1,3 +1,11 @@
+# Smart Contract Libraries
+Look into ``contracts`` folder if you are looking solidity libraries.
+
+Librariy List
+
+- AccountPermissions ``Grant/Revoke/Check permission of any account in your contracts``
+- BitOps ``Bitwise operations library for uint data type``
+
 # Advanced Sample Hardhat Project
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
