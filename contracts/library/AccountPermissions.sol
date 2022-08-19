@@ -86,12 +86,10 @@ library AccountPermissions {
         perms.data = (2 ** 256) - 1;
     }
 
-    function getSlotKey(address a) public pure returns (bytes32) {
+    /**
+     * @dev Get storage slot key for given account
+     */
+    function getSlotKey(address a) internal pure returns (bytes32) {
         return keccak256(abi.encodePacked(a)) | BYTES_MASK;
-    }
-
-    function getAllPermissions(address a) public pure returns (uint) {
-        AccountBitmaskPermission memory perms = _permissionStorage(a);
-        return perms.data;
     }
 }
