@@ -1,11 +1,31 @@
 {
-  "name": "@bilalatli/smart-contract-libraries",
-  "version": "1.0.1",
-  "description": "Solidity smart contract libraries for dApp developers !",
+  "name": "@bilalatli/smart-contract-libs",
+  "version": "1.1.0",
+  "description": "Smart contract libraries for dApp developers !",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilalatli/smart-contract-libraries.git"
+  },
   "author": {
     "name": "Bilal ATLI",
     "url": "https://github.com/bilalatli"
   },
+  "keywords": [
+    "solidity",
+    "smart-contract",
+    "contract",
+    "ethereum",
+    "blockchain"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bilalatli/smart-contract-libraries/issues"
+  },
+  "homepage": "https://github.com/bilalatli/smart-contract-libraries#readme",
+  "files": [
+    "README.md",
+    "/contracts/**/*.sol"
+  ],
   "scripts": {
     "test": "npx hardhat test --network hardhat",
     "serve:remix-ide": "remixd -s ./ -u https://remix.ethereum.org",
